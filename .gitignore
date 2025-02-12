@@ -9,7 +9,13 @@
 
 /Drivers
 
+*.hex
 
+*.ld
+
+*.ioc
+
+*.suo
 
 
 

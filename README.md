@@ -37,14 +37,16 @@
 ## 如何烧录
 
 我们用的这种封装型号没有USB转串口模块，只能使用SWD烧录，如下图
-![alt text](image.png)
+
+![alt text](image/image.png)
 
 ### 使用Keil烧录
 
 用Keil打开MDK-ARM/usb_cdc_adc.uvprojx工程
 
 将ST-Link的3V3, GND, SWCLK, SWDIO四个口对着板子的引脚接上，再接到电脑，就可以在Keil软件中烧录
-![alt text](image-2.png)
+
+![alt text](image/image-2.png)
 
 如果购买的是带USB转串口模块的板子，可以直接使用USB数据线串口烧录
 

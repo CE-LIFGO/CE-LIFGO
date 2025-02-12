@@ -6,9 +6,6 @@
 
 *.o
 
-
-/Drivers
-
 *.hex
 
 *.ld
